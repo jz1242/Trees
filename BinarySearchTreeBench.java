@@ -28,7 +28,7 @@ public class BinarySearchTreeBench {
         for (int i = 0; i < SIZE; i++) {
             int x = RAND.nextInt(SIZE*4);
             if(!s.has(x)){
-                s.insert(x, RAND.nextInt(SIZE*4));
+                s.insert(x, x);
             }
         }
     }
